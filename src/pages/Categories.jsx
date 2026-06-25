@@ -86,6 +86,7 @@ if (!isLoggedIn) {
                 <FaHeart className="heart-icon" />
 
                 <img
+                
                   src={product.image}
                   alt={product.name}
                 />
