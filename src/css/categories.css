@@ -1,0 +1,101 @@
+.categories-page {
+  background: #fff7f3;
+  padding: 70px 8%;
+}
+
+.categories-page h2 {
+  text-align: center;
+  color: #2E7D32;
+  margin-bottom: 50px;
+}
+
+.categories-container {
+  display: flex;
+  gap: 40px;
+}
+
+.sidebar {
+  width: 220px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  background: #2E7D32;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.products-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.category-card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  position: relative;
+  text-align: center;
+}
+
+.category-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.category-card h3 {
+  color: #2E7D32;
+  margin: 15px 0;
+}
+
+.price {
+  color: #FE5303;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.category-card button {
+  margin-top: 15px;
+  background: #FE5303;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #FE5303;
+}
+
+.category-btn button {
+  width: 220px;
+  height: 55px;
+  border: 1px solid #d9d9d9;
+  background: white;
+  color: #2E7D32;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-btn button:hover {
+  background: #FE5303;
+  color: white;
+}
+
+.active-category {
+  background: #FE5303 !important;
+  color: white !important;
+  border-color: #FE5303 !important;
+  font-weight: 600;
+}

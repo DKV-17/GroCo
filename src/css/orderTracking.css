@@ -1,0 +1,124 @@
+.tracking-page {
+  background: #ffffff;
+  padding: 60px 8%;
+}
+
+.tracking-page h2 {
+  text-align: center;
+  color: #2E7D32;
+  margin-bottom: 45px;
+}
+
+.delivery-box,
+.status-box,
+.help-box {
+  background: #FEEDE6;
+  width: 650px;
+  max-width: 100%;
+  margin: 0 auto 35px;
+  padding: 30px;
+}
+
+.delivery-box h3,
+.status-box h3,
+.help-box h3 {
+  color: #2E7D32;
+  margin-bottom: 20px;
+}
+
+.delivery-date {
+  background: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delivery-date p {
+  color: #2E7D32;
+}
+
+.delivery-date h2 {
+  color: #2E7D32;
+  margin: 0;
+  text-align: left;
+}
+
+.truck-icon {
+  color: #FE5303;
+  font-size: 35px;
+}
+
+
+
+
+
+
+.status-item {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 28px;
+  position: relative;
+    color: #bdbdbd;
+}
+
+.status-item.active {
+  color: #2E7D32;
+}
+
+.status-item h4 {
+  margin-bottom: 6px;
+}
+
+.status-item::before {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 22px;
+  width: 2px;
+  height: 38px;
+  background: #D9D9D9;
+}
+
+.status-item:last-child::before {
+  display: none;
+}
+
+
+.status-item p,
+.help-box p {
+  color: #757575;
+}
+
+.help-box span {
+  color: #FE5303;
+  font-weight: 600;
+}
+
+.progress-line{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:25px 0 35px;
+}
+
+.progress-bg{
+    flex:1;
+    height:6px;
+    background:#D9D9D9;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    width:70%;
+    height:100%;
+    background:#FE5303;
+    border-radius:20px;
+}
+
+.progress-line span{
+    color:#2E7D32;
+    font-size:14px;
+    font-weight:600;
+}
