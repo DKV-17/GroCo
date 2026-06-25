@@ -39,10 +39,10 @@ import Butter from "../assets/images/dairy products/butter.png";
 import Cheese from "../assets/images/dairy products/cheese.png";
 import Curd from "../assets/images/dairy products/curd.png";
 import Milkpowder from "../assets/images/dairy products/milkpowder.png";
-import Yogurt from "../assets/images/dairy products/milk.png";
-import Panner from "../assets/images/dairy products/milk.png";
-import cowmilk from "../assets/images/dairy products/milk.png";
-import Ghee from "../assets/images/dairy products/ghee.png";
+import Yogurt from "../assets/images/dairy products/yogurt.png";
+import Panner from "../assets/images/dairy products/panner.png";
+import cowmilk from "../assets/images/dairy products/cowmilk.png";
+import Ghee from "../assets/images/dairy products/Ghee.png";
 
 
 const products = [
